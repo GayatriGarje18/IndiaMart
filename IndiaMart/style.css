@@ -1,0 +1,1117 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(34, 34, 124);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    flex-grow: 1;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-right: none;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    flex-grow: 1;
+}
+
+.search-button {
+    background-color: rgb(31, 134, 31);
+    color: white;
+    border: 1px solid rgb(31, 134, 31);
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.get-best-price {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.hero-section img {
+    width: 100%;
+    display: block;
+}
+
+.categories {
+    padding: 20px;
+}
+
+.categories h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 40px;
+}
+
+.category-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.category-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.category-item h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.get-quotes-link {
+    text-decoration: none; /* Remove default link styling */
+    display: block; /* Make the anchor fill the width of the button */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.get-quotes-button {
+    background-color: rgb(34, 34, 124);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%; /* Make the button fill the width of the link */
+    box-sizing: border-box; /* Ensure padding doesn't increase the button's overall width */
+}
+
+.sponsored-listing {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    /* Add more styling for the sponsored listing section */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+
+
+/* electronics_style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.electronics-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.electronics-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.electronics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.grid-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-item h3 {
+    font-size: 16px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.grid-item ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.grid-item ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.grid-item-large {
+    grid-column: 1 / -1; /* Span across all columns */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.large-image {
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.large-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.large-content {
+    padding: 15px;
+}
+
+.large-content ul {
+    margin-bottom: 15px;
+}
+
+.view-all-button {
+    display: inline-block;
+    background-color: rgb(34, 34, 124)
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.view-all-button:hover {
+    background-color: #0056b3;
+}
+
+.item-image {
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.item-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .electronics-grid {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+
+    .grid-item-large {
+        grid-column: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .large-content {
+        padding: 10px;
+    }
+
+    .large-image {
+        order: -1; /* Image appears above content on smaller screens */
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* get_quotes_style.css */
+.section1 {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.quote-container {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.left-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.process-icons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.icon-step {
+    flex: 1;
+    text-align: center;
+}
+
+.icon-step img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.icon-step p {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+.right-section {
+    flex: 1;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.right-section h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="tel"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.mobile-input {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-input .prefix {
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 10px 10px 10px 15px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 1em;
+}
+
+.mobile-input input[type="tel"] {
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.country-info {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.globe-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    fill: #555;
+}
+
+.country-name {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.dropdown-arrow {
+    font-size: 0.8em;
+}
+
+.submit-button {
+    background-color: #198754;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #135e3d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quote-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left-section {
+        padding-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .left-section h2 {
+        font-size: 2em;
+    }
+
+    .process-icons {
+        margin-top: 20px;
+    }
+
+    .right-section {
+        padding-left: 0;
+    }
+
+    .right-section h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .icon-step img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-step p {
+        font-size: 0.8em;
+    }
+}
+
+/* find_suppliers_style.css */
+.section2{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px; /* Adjust as needed */
+}
+
+.find-suppliers {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 900px; /* Adjust as needed */
+}
+
+.find-suppliers h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
+.city-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-item a {
+    text-decoration: none;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-icon {
+    background-color: #d0d0d0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.city-icon img {
+    max-width: 40px;
+    max-height: 40px;
+    opacity: 0.7;
+}
+
+.city-item p {
+    font-size: 0.9em;
+    margin-top: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .cities-grid {
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        gap: 10px;
+    }
+
+    .city-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .city-icon img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    .city-item p {
+        font-size: 0.8em;
+    }
+}
+
+/* explore_more_style.css */
+.section3 {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.explore-brands, .more-for-you {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.explore-brands h2, .more-for-you h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Explore Brands Section */
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 15px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 60px; /* Adjust as needed */
+}
+
+.brand-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    opacity: 0.8;
+}
+
+/* More for You Section */
+.more-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.more-item {
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.more-item img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.more-item h3 {
+    font-size: 1.1em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.more-item p {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.more-item .small-text {
+    font-size: 0.8em;
+    color: rgb(34, 34, 124);
+}
+
+.know-more-link {
+    display: inline-block;
+    color: rgb(34, 34, 124);
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.know-more-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .brands-grid {
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        gap: 10px;
+    }
+
+    .more-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .more-item h3 {
+        font-size: 1em;
+    }
+
+    .more-item p {
+        font-size: 0.8em;
+    }
+}
+
+/* accounting_app_style.css */
+.section4{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.accounting-software-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accounting-software-section .left-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.accounting-software-section .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.accounting-software-section .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.accounting-software-section .logo p {
+    font-size: 0.8em;
+    color: #777;
+    margin: 0;
+}
+
+.accounting-software-section .logo p span {
+    color: rgb(34, 34, 124);
+}
+
+.accounting-software-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.accounting-software-section .trusted-by {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.accounting-software-section .trusted-by span {
+    font-weight: bold;
+}
+
+.accounting-software-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.accounting-software-section ul li {
+    color: #555;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.accounting-software-section ul li::before {
+    content: '✓';
+    color: #28a745;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2em;
+}
+
+.accounting-software-section .right-content {
+    flex: 1;
+    text-align: center;
+}
+
+.accounting-software-section .right-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Get IndiaMART App Section */
+.get-indiamart-app-section {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.get-indiamart-app-section .app-left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.get-indiamart-app-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.get-indiamart-app-section .app-description {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.get-indiamart-app-section .mobile-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.get-indiamart-app-section .mobile-input span {
+    background-color: #e0e0e0;
+    color: #555;
+    padding: 10px 10px 10px 15px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 1em;
+}
+
+.get-indiamart-app-section .mobile-input input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 1em;
+    flex-grow: 1;
+}
+
+.get-indiamart-app-section .mobile-input .send-link-button {
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.get-indiamart-app-section .mobile-input .send-link-button:hover {
+    background-color: #135e3d;
+}
+
+.get-indiamart-app-section .sms-info {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.get-indiamart-app-section .download-buttons {
+    display: flex;
+}
+
+.get-indiamart-app-section .download-buttons a {
+    margin-right: 10px;
+}
+
+.get-indiamart-app-section .download-buttons img {
+    height: 40px;
+}
+
+.get-indiamart-app-section .app-right {
+    flex: 1;
+    text-align: center;
+}
+
+.get-indiamart-app-section .app-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .accounting-software-section,
+    .get-indiamart-app-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .accounting-software-section .left-content,
+    .get-indiamart-app-section .app-left,
+    .accounting-software-section .right-content,
+    .get-indiamart-app-section .app-right {
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .accounting-software-section .logo {
+        justify-content: center;
+    }
+
+    .get-indiamart-app-section .mobile-input {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .get-indiamart-app-section .mobile-input span {
+        border-right: 1px solid #ccc;
+        border-radius: 4px 4px 0 0;
+        margin-bottom: 5px;
+    }
+
+    .get-indiamart-app-section .mobile-input input[type="tel"] {
+        border-radius: 0 0 4px 4px;
+        border-left: 1px solid #ccc;
+    }
+
+    .get-indiamart-app-section .mobile-input .send-link-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .get-indiamart-app-section .download-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-indiamart-app-section .download-buttons a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Basic Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333; /* Dark grey text */
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+.footer-container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.footer-bottom-left {
+    color: #777;
+}
+
+.footer-bottom-right a {
+    color: #777;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.footer-bottom-right a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-bottom-right {
+        margin-top: 10px;
+    }
+
+    .footer-bottom-right a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+/* Specific Styling for the Top Right Section */
+.footer-top-right {
+    display: flex;
+    align-items: center;
+}
+
+.go-mobile {
+    margin-right: 15px;
+    color: #555;
+}
+
+.go-mobile a {
+    color: #555;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.go-mobile img {
+    vertical-align: middle;
+    height: 1.2em; /* Adjust size as needed */
+    width: auto;
+}
+
+.follow-us {
+    color: #555;
+}
+
+.follow-us a {
+    color: #fff;
+    background-color: #3b5998; /* Facebook blue */
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 1em; /* Adjust icon size */
+}
+
+.follow-us a.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+}
+
+.follow-us a.twitter {
+    background-color: #1da1f2; /* Twitter blue */
+}
+
+/* You might need to find actual icons or use font-awesome */
+.follow-us a i { /* Placeholder for icons */
+    /* Add your icon styles here if using a library */
+}
